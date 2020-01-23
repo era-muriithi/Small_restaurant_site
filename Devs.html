@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Aromas site</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<nav>
+    <ul class="topnav" id="dropdownClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Delicasies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="topnav-right"><a href="login.html">Sign up</a></li>
+        <li class="topnav-right"><a href="login.html">Sign in</a></li>
+        <li class="dropdownicon"><a href="javascript:void(0)"
+            onclick="dropdownMenu()">&#9776;</a></li>
+
+    </ul>
+</nav>
+
+<div class="container" id="section-1-gradient">
+    <div class="row"> 
+        <div class="col-6">
+            <div class="leftside-col">
+                <h1 class="large1">Aromas</h1>
+                <h1 class="large">Simply Delicious</h1>
+            </div>
+            <form>
+                <div class="leftside-col">
+                <h2>Username</h2>
+                <input class="inputbox" name="username"
+                 type="text" placeholder="Username">
+                 <h2>Password</h2>
+                <input class="inputbox" name="password"
+                 type="password" placeholder="Password">
+                 
+                 <input class="login" type="submit" name="" value="Login">
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="rightside-col">
+                <div class="videocontainer">
+                    <iframe width="560" height="290" 
+                    src="https://www.youtube.com/embed/7JCF_di4las" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+     
+</div>
+
+<header>
+    <h1 class="section2header">The Stardard of Awesomeness</h1>
+</header>
+<div class="container">
+    <div class="row">
+    <div class="col-4">
+        <div class="box">
+            <div class="icon">
+            <img src="gallery/chapo.jpg">
+            </div>
+            <label>Chapatis</label>
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+                
+            </p>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                <img src="gallery/mango.jpeg">
+                </div>
+                <label>Fruit Juice</label>
+                <p>
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea.
+                    
+                </p>
+    
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                    <img src="gallery/pilau.jpg">
+                    </div>
+                    <label>Delicious Pilau</label>
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea.
+                        
+                    </p>
+        
+                    </div>
+                </div>
+    </div>
+    <div class="row">
+        <div class="col-12">\
+            <button class="learnmore">Learn more</button>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container sweetbc">
+    <div class="row">
+<div class="col-7">
+    <article>
+        <p>
+            Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt 
+        ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco
+       laboris nisi ut aliquip ex ea.
+        </p>
+    </article>
+</div>
+
+<div class="col-5">
+    <div class="slopeicon">
+        <img src="gallery/aromas.jpg">
+    </div>
+</div>
+</div>
+</div>
+<footer class="footsy">
+<div class="row">
+    <div class="col-3 mobilestack">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="col-3 mobilestack">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="col-3 mobilestack">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+    <div class="col-3 mobilestack">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Careers</li>
+        </ul>
+    </div>
+</div>
+
+</footer>
+
+
+<script>
+    function dropdownMenu() {
+        let x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+
+</script>
+
+</body>
+
+</html>
